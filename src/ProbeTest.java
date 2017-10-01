@@ -3,6 +3,7 @@ import java.util.Random;
 //Skyler Lovecraft (Dylan Scott)
 //Hash INIT_POPULATION random numbers into a table of length INIT_CAPACITY using open addressing 
 //then add ADDITIONAL_NUMBERS more elements to the table while counting the total number of probes for the last 50.
+//https://github.com/SkylerLovecraft/hashTableProbing
 public class ProbeTest {
 	private static final int INIT_CAPACITY = 1009;
 	private static final int INIT_POPULATION = 900;
